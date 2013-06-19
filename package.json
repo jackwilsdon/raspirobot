@@ -1,0 +1,29 @@
+{
+	"name": "RaspiRobot",
+	"description": "RaspiRobot control for Node.js",
+	"homepage": "http://github.com/jackwilsdon/RaspiRobot/",
+	"version": "0.1.0",
+	"keywords": [
+		"raspberry",
+		"pi",
+		"gpio",
+		"robot",
+		"raspi"
+	],
+	"author": {
+		"name": "Jack Wilsdon",
+		"email": "jack.wilsdon@gmail.com"
+	},
+	"main": "./lib/RaspiRobot.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/jackwilsdon/RaspiRobot.git"
+	},
+	"engines": {
+		"node": ">= 0.4.0"
+	},
+	"dependencies": {
+		"gpio": ">= 0.2.0" 
+	}
+}
+	
