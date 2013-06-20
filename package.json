@@ -1,7 +1,7 @@
 {
-	"name": "RaspiRobot",
-	"description": "RaspiRobot control for Node.js",
-	"homepage": "http://github.com/jackwilsdon/RaspiRobot/",
+	"name": "raspirobot",
+	"description": "SparkFun's RaspiRobot control for Node.js",
+	"homepage": "http://github.com/jackwilsdon/raspirobot/",
 	"version": "1.0.0",
 	"keywords": [
 		"raspberry",
@@ -14,10 +14,10 @@
 		"name": "Jack Wilsdon",
 		"email": "jack.wilsdon@gmail.com"
 	},
-	"main": "./lib/RaspiRobot.js",
+	"main": "./lib/raspirobot.js",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/jackwilsdon/RaspiRobot.git"
+		"url": "git://github.com/jackwilsdon/raspirobot.git"
 	},
 	"engines": {
 		"node": ">= 0.4.0"

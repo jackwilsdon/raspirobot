@@ -1,4 +1,4 @@
-# RaspiRobot
+# raspirobot
 A Node.js library to control SparkFun's [RaspiRobot board](https://www.sparkfun.com/products/11561).
 
 Based on [GpiO](https://github.com/EnotionZ/GpiO) by EnotionZ.
@@ -7,14 +7,14 @@ Based on [GpiO](https://github.com/EnotionZ/GpiO) by EnotionZ.
 **You will need node.js installed on your Raspberry Pi to use this library.**
 You can install node.js on Raspbian using `apt-get install nodejs` as root.
 
-RaspiRobot is an npm package, so you can use the following to install it;
+raspirobot is an npm package, so you can use the following to install it;
 
-	npm install RaspiRobot
+	npm install raspirobot
 	
 ## Usage
 **Standard Usage**
 
-	var robot = require("RaspiRobot"); // Import the library
+	var robot = require("raspirobot"); // Import the library
 	robot.setup(); // Set up GPIO ports
 	
 	robot.setLED(1, 1); // Turn on LED 1
@@ -23,16 +23,19 @@ RaspiRobot is an npm package, so you can use the following to install it;
 
 **Input**
 
-	var robot = require("RaspiRobot"); // Import the library
+	var robot = require("raspirobot"); // Import the library
 	robot.setup(); // Set up GPIO ports
 	
 	robot.setSwitchCallback(1, function(value) // Set the switch callback to a function
 	{
 		console.log("Switch changed to "+value); // Output the new value of the switch
 	});
+	
+**Including this in your package**
+If you want to use raspirobot in your package, add `raspirobot => 0.1.1` to your dependancies
 
 ## Methods
-A list of all the available RaspiRobot methods can be found below
+A list of all the available raspirobot methods can be found below
 
 `setup()` - Sets up the GPIO ports for SparkFun's [RaspiRobot board](https://www.sparkfun.com/products/11561).
 
