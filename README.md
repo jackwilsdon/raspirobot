@@ -14,7 +14,9 @@ raspirobot is an npm package, so you can use the following to install it;
 ## Usage
 **Standard Usage**
 
-	var robot = require("raspirobot"); // Import the library
+	var RaspiRobot = require("raspirobot").RaspiRobot, // Import the library
+	    robot = new RaspiRobot();
+	
 	robot.setup(); // Set up GPIO ports
 	
 	robot.setLED(1, 1); // Turn on LED 1
@@ -23,7 +25,9 @@ raspirobot is an npm package, so you can use the following to install it;
 
 **Input**
 
-	var robot = require("raspirobot"); // Import the library
+	var RaspiRobot = require("raspirobot").RaspiRobot, // Import the library
+	    robot = new RaspiRobot();
+	
 	robot.setup(); // Set up GPIO ports
 	
 	robot.setSwitchCallback(1, function(value) // Set the switch callback to a function
