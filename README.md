@@ -3,6 +3,8 @@ A Node.js library to control SparkFun's [RaspiRobot board](https://www.sparkfun.
 
 Based on [GpiO](https://github.com/EnotionZ/GpiO) by EnotionZ.
 
+[![](https://nodei.co/npm/raspirobot.png)](https://www.npmjs.com/package/raspirobot)
+
 ## Installation
 **You will need node.js installed on your Raspberry Pi to use this library.**
 You can install node.js on Raspbian using `apt-get install nodejs` as root.
